@@ -83,6 +83,14 @@ tofu apply `
   -auto-approve
 ```
 
+```powershell
+tofu destroy `
+  -var-file="credentials/azure.tfvars" `
+  -var-file="credentials/github.tfvars" `
+  -var-file="environments/dev/dev.tfvars" `
+  -auto-approve
+```
+
 ## Estrutura do projeto
 
 ```
