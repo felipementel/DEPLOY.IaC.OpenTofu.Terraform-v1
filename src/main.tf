@@ -9,7 +9,6 @@ terraform {
       version = "~> 6.11.1"
     }
   }
-
   required_version = ">= 1.11.1"
 }
 
